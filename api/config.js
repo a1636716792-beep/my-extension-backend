@@ -11,9 +11,10 @@ export default function handler(request, response) {
 
   // 3. 正常的业务逻辑
   return response.status(200).json({
-    enable: false,  // 开关 true 开启，false 关闭
+    enable: true,  // 开关 true 开启，false 关闭
     message: "插件正常运行",
     version: "3.0"
   });
 }
+
 
